@@ -2,14 +2,19 @@
 
 ### Instructions
 
-1. Download bootstrap.dat.gz <a href="https://github.com/AegeusCoin/bootstrap/raw/master/bootstrap.dat.gz">Here</a>
+1. Download bootstrap.dat.gz <a href="https://gateway.ipfs.io/ipfs/QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD">Here</a>
 
-2. Place bootstrap.dat.gz inside of your Aegeus data directory and decompress it with your favorite software (gunzip for Linux/Mac, 7zip/winrar/winzip for Windows):
+2. Place QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD inside of your Aegeus data directory and decompress it with your favorite software (gunzip for Linux/Mac, 7zip/winrar/winzip for Windows):
  - Windows: %APPDATA%\AEGEUS\
  - Linux: ~/.aegeus/
  - Mac: ~/Library/Application Support/AEGEUS
 
-3. Open your Aegeus wallet and the sync will begin reading blocks from the local bootstrap instead of net
+### A few details to cover
 
-Depending on which block the bootstrap left off at, some blocks may still need to be retrieved from peers.  We will keep this file as updated as possible to minimize the amount of time that might take.
+- If prompted to overwrite any existing files within the 'blocks' directory, choose yes.
+- This file is hosted on the IPFS network.  If you already have IPFS installed, you can simply type: ipfs get QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD
+- This update includes up to block 227942 and unlike a typical bootstrap, will be much quicker.
 
+3. Open your Aegeus wallet and the sync will then check with peers for the best height and begin syncing to catch up.
+
+We will keep this file as updated as possible to minimize the amount of time that might take.
