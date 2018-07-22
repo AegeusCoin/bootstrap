@@ -9,8 +9,9 @@
  - Linux: ~/.aegeus/
  - Mac: ~/Library/Application Support/AEGEUS
 
-### A few details to cover
+2(b). If this is a replacement for an already-running installation, be sure to remove the 'blocks' and 'chainstate' directory from the appropriate data directory listed above.
 
+### A few details to cover
 - If prompted to overwrite any existing files within the 'blocks' directory, choose yes.
 - This file is hosted on the IPFS network.  If you already have IPFS installed, you can simply type: ipfs get QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD
 - This update includes up to block 227942 and unlike a typical bootstrap, will be much quicker.
