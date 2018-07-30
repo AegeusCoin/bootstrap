@@ -1,10 +1,10 @@
-![Aegeus Bootstrap](https://ipfs.io/ipfs/QmZnyYCh7TRNgN4wZBFiYPzbptiLCzAZckiV3nC1CRtqcK)
+![Aegeus Bootstrap](https://ipfs.io/ipfs/QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi)
 
 ### Instructions
 
-1. Download QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD (blocks.tar.gz) <a href="https://gateway.ipfs.io/ipfs/QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD">Here</a>
+1. Download QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi (aegeus-bootstrap.tar.gz) <a href="https://gateway.ipfs.io/ipfs/QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi">Here</a>
 
-2. Place QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD inside of your Aegeus data directory and decompress it with your favorite software (gunzip for Linux/Mac, 7zip/winrar/winzip for Windows):
+2. Place QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi inside of your Aegeus data directory and decompress it with your favorite software (gunzip for Linux/Mac, 7zip/winrar/winzip for Windows):
  - Windows: %APPDATA%\AEGEUS\
  - Linux: ~/.aegeus/
  - Mac: ~/Library/Application Support/AEGEUS
@@ -12,10 +12,10 @@
 2(b). If this is a replacement for an already-running installation, be sure to remove the 'blocks' and 'chainstate' directory from the appropriate data directory listed above.
 
 ### A few details to cover
-- If prompted to overwrite any existing files within the 'blocks' directory, choose yes.
-- This file is hosted on the IPFS network.  If you already have IPFS installed, you can simply type: ipfs get QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD
-- This update includes up to block 227942 and unlike a typical bootstrap, will be much quicker.
-- The filename will be QmajB3M2pSDNQdvmDsBV272MKcqn918g9YbcjqvwxrqFdD but will decompress to a directory named 'blocks'.
+- If prompted to overwrite any existing files within the 'blocks' and 'chainstate' directory, choose yes.
+- This file is hosted on the IPFS network.  If you already have IPFS installed, you can simply type: ipfs get QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi
+- This update includes up to block 238118 and unlike a typical bootstrap, will be much quicker.
+- The filename will be QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi but will decompress and 'blocks' and 'chainstate' will extract
 
 3. Open your Aegeus wallet and the sync will then check with peers for the best height and begin syncing to catch up.
 
