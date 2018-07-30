@@ -1,4 +1,4 @@
-![Aegeus Bootstrap](https://ipfs.io/ipfs/QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi)
+![Aegeus Bootstrap](https://ipfs.io/ipfs/QmZnyYCh7TRNgN4wZBFiYPzbptiLCzAZckiV3nC1CRtqcK)
 
 ### Instructions
 
