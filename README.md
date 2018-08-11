@@ -1,8 +1,8 @@
-![Aegeus Bootstrap](https://gateway.ipfs.io/ipfs/QmZnyYCh7TRNgN4wZBFiYPzbptiLCzAZckiV3nC1CRtqcK)
+![Aegeus Bootstrap](http://ipfsgw1.aegeus.io/QmZnyYCh7TRNgN4wZBFiYPzbptiLCzAZckiV3nC1CRtqcK)
 
 ### Instructions
 
-1. Download QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi (aegeus-bootstrap.tar.gz) <a href="https://gateway.ipfs.io/ipfs/QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi">Here</a>
+1. Download QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi (aegeus-bootstrap.tar.gz) <a href="http://ipfsgw1.aegeus.io/QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi">Here</a>
 
 2. Place QmUBhH9R5VzrqeiTSia7Sc4HXQTvR9dWgzMDbf8Wi1XTfi inside of your Aegeus data directory and decompress it with your favorite software (gunzip for Linux/Mac, 7zip/winrar/winzip for Windows):
  - Windows: %APPDATA%\AEGEUS\
